@@ -1,10 +1,7 @@
-## The following functions create and populate "cache matrix" objects
-## that can significantly improve performance of operations that require
-
-## makeCacheMatrix creates a special "matrix" object that can cache
-## the inverse of a matrix alongside the original. The returned value
-## is actually a list with functions to access the original matrix and
-## its cached inverse.
+## Put comments here that give an overall description of what your
+  ## functions do
+  
+  ## Write a short comment describing this function
 makeCacheMatrix <- function(x = matrix()) {
   
   #Initialize the cached inverse variable
